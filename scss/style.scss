@@ -541,6 +541,12 @@ footer {
 
 
 @media(max-width:481px) {
+
+    .main__content__forms{
+        input{
+            width: 100%;
+        }
+    }
     .pricing {
         h2 {
             font-size: 24px;
@@ -573,6 +579,24 @@ footer {
 
 }
 
+
+@media(max-width:645px){
+    .main__content__forms{
+
+       
+        
+        &__input{
+            width: 100%;
+        }
+        &__com{
+            width:50%;
+        }
+        &__check{
+            width: 48%;
+        }
+    }
+      
+}
 
 @media(max-width:992px) {
 
